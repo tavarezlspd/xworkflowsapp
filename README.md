@@ -61,5 +61,6 @@ Ensure the server is accessible via a public URL and configure the Lightspeed Re
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
 
