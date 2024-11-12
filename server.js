@@ -13,7 +13,7 @@ app.post('/lightspeed/workflow', async (req, res) => {
 
     // Check if the request is a POST request and contains line items
     if (req.method === 'POST' && request.line_items) {
-      const targetItemId = 'd6d3f24b-e991-4dc7-b761-922d92f1f29e'; // ID of the item to add
+      const targetItemId = '48fc0f69-6912-4cf8-9e47-266f74ad71de'; // ID of the item to add
       const lineItems = request.line_items;
 
       // Check if the target item is already in the sale to prevent duplicates
