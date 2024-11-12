@@ -54,16 +54,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
-/* Render Blueprint File - render.yaml */
-
-services:
-  - type: web
-    name: lightspeed-workflow-server
-    env: node
-    buildCommand: "npm install"
-    startCommand: "node server.js"
-    plan: free
-    envVars:
-      - key: PORT
-        value: "3000"
