@@ -10,13 +10,8 @@ Repository: [xworkflowsapp](https://github.com/tavarezlspd/xworkflowsapp)
 - Automatically adds a specific line item to a sale when triggered.
 - Prevents duplicate item additions.
 
-## Setup
-
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/tavarezlspd/xworkflowsapp.git
-   cd xworkflowsapp
-   ```
+4. **Update Product ID**:
+   - Open `server.js` and replace the `targetItemId` with the `product_id` of the line item from your Lightspeed X-Series account.
 
 2. **Install Dependencies**:
    ```sh
@@ -67,6 +62,4 @@ Ensure the server is accessible via a public URL and configure the Lightspeed Re
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-
 
